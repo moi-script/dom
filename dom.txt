@@ -1,0 +1,43 @@
+
+
+Elements | Events | Attributes
+
+Elements -> those that contains an opening and closing tags
+
+Attributes -> the key pair value that is in the tags
+
+Events -> something that happened in the browser 
+
+
+
+select an Elements
+
+
+-- document -> this is literally everything in html as it was the paper itself 
+
+document.getElementById(id);
+document.getElementByTagName(tag);
+document.getElementByClassName(class);
+
+
+-- Changing an Elements
+element.innerHTML = string
+element.attribute = new value | element.setAttribute(attribute, newValue); ---> literally the same just the object or methods
+element.style.property = new style
+
+
+
+-- Adding and Removing Elements
+
+document.createElement(element);
+
+document.removeChild(element);
+document.appendChild(element);
+document.replaceChild(element);
+document.write('string') -> to the html output stream 
+
+
+
+
+additional element selection 
+
